@@ -1,11 +1,11 @@
 import { Header } from "./components/Header/Header";
-import { FlightSearchForm } from "./components/FlightSearchForm/FlightSearchForm";
+import { FlightSearchFormContent } from "./components/FlightSearchForm/FlightSearchFormContent";
 
 export const App = () => {
   return (
     <>
       <Header />
-      <FlightSearchForm />
+      <FlightSearchFormContent />
     </>
   );
 };
